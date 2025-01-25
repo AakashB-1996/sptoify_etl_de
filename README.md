@@ -15,6 +15,7 @@ The ETL pipeline performs the following steps:
 - `spotify_data.ipynb`: Jupyter Notebook containing initial data extraction from the Spotify API and transformations to change the data from json to dataframes to make it easy to read.
 - `spotify_etl_lambda.py`: Python script designed to be deployed as an AWS Lambda function for automating the ETL process.
 - `sotify_etl_lambda_transform.py`: Python script for transforming the data within the AWS Lambda function.
+- `spotify_snowflake_load.sql`: SQL script executed on snowflake to create integration, build a stage and utlizie snowpipes to load any new files that landed in s3
 
 ## Prerequisites
 
