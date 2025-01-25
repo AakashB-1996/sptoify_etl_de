@@ -28,3 +28,5 @@ The ETL pipeline performs the following steps:
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/AakashB-1996/sptoify_etl_de.git
+
+![Image of Architecture](https://github.com/AakashB-1996/sptoify_etl_de/blob/main/Copy%20of%20Spotify%20ETL%20Architecture%20Cloud.png)
